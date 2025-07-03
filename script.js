@@ -214,8 +214,8 @@ const blogPosts = [
         image: "img/blog.jpeg",
         author: "Phoenix Baker",
         authorAvatar: "img/avatar.png",
-        date: "3 July 2024",
-        dateSort: new Date("2024-07-03"),
+        date: "12 July 2024",
+        dateSort: new Date("2024-07-12"),
         tags: ["archives", "craftsmanship"],
         category: "cases",
         content: `
