@@ -8,8 +8,9 @@ const blogPosts = [
         author: "Elenka Suthwin",
         authorAvatar: "img/avatar.png",
         date: "19 April 2024",
+        dateSort: new Date("2024-04-19"),
         tags: ["writings", "design"],
-        category: "writings",
+        category: "cases",
         content: `
             <p>Viola Leitano is a remarkable photographer and UX designer who has made her mark in the creative industry. Based in New York, she has collaborated with some of the world's most prestigious brands including Spotify, Nike, Chanel, and Vogue.</p>
             
@@ -29,7 +30,8 @@ const blogPosts = [
         image: "img/blog.jpeg",
         author: "Caroline Wu",
         authorAvatar: "img/avatar.png",
-        date: "15 April 2024",
+        date: "18 April 2024",
+        dateSort: new Date("2024-04-18"),
         tags: ["writings", "design"],
         category: "writings",
         content: `
@@ -51,7 +53,8 @@ const blogPosts = [
         image: "img/blog.jpeg",
         author: "Lana Steiner",
         authorAvatar: "img/avatar.png",
-        date: "12 April 2024",
+        date: "17 April 2024",
+        dateSort: new Date("2024-04-17"),
         tags: ["writings", "philosophy"],
         category: "writings",
         content: `
@@ -68,34 +71,13 @@ const blogPosts = [
     },
     {
         id: 4,
-        title: "A Continually Unfolding History — Made by Hand",
-        excerpt: "A long-standing occupation that involves the creation of objects, Made by Hand explores the intersection of traditional craftsmanship and modern design.",
-        image: "img/blog.jpeg",
-        author: "Phoenix Baker",
-        authorAvatar: "img/avatar.png",
-        date: "10 April 2024",
-        tags: ["archives", "craftsmanship"],
-        category: "archives",
-        content: `
-            <p>The art of making things by hand has been with humanity since the beginning of time. In our digital age, there's something profoundly satisfying about creating physical objects with our own hands.</p>
-            
-            <h2>Traditional Craftsmanship Meets Modern Design</h2>
-            <p>Today's artisans are finding innovative ways to blend traditional techniques with contemporary aesthetics, creating pieces that honor the past while speaking to the present.</p>
-            
-            <h2>The Value of Handmade</h2>
-            <p>In a world of mass production, handmade objects carry a special significance. They tell stories, preserve traditions, and connect us to the human experience in ways that machine-made products cannot.</p>
-            
-            <p>The future of craftsmanship lies not in rejecting technology, but in thoughtfully integrating it with time-honored techniques to create something entirely new.</p>
-        `
-    },
-    {
-        id: 5,
         title: "How Remote Collaboration Makes Us Better Designers",
         excerpt: "Collaboration can make us better designers, and our design better. Here are some insights on how to navigate the new challenges of remote collaboration.",
         image: "img/blog.jpeg",
         author: "Natali Craig",
         authorAvatar: "img/avatar.png",
-        date: "8 April 2024",
+        date: "16 April 2024",
+        dateSort: new Date("2024-04-16"),
         tags: ["writings", "collaboration"],
         category: "writings",
         content: `
@@ -111,13 +93,14 @@ const blogPosts = [
         `
     },
     {
-        id: 6,
+        id: 5,
         title: "Best Books on Scaling Your Early-stage Startup",
         excerpt: "This comprehensive guide covers the best books for scaling your early-stage startup, from foundational business advice to take your business to the next level.",
         image: "img/blog.jpeg",
         author: "Natali Craig",
         authorAvatar: "img/avatar.png",
-        date: "5 April 2024",
+        date: "15 April 2024",
+        dateSort: new Date("2024-04-15"),
         tags: ["book-nook", "business"],
         category: "book-nook",
         content: `
@@ -133,13 +116,60 @@ const blogPosts = [
         `
     },
     {
+        id: 6,
+        title: "Conversations with London Hair & Co.",
+        excerpt: "We sat down with London's fast-growing brand and product design studio, Hair & Co, to find out how they've built their reputation.",
+        image: "img/blog.jpeg",
+        author: "Natali Craig",
+        authorAvatar: "img/avatar.png",
+        date: "14 April 2024",
+        dateSort: new Date("2024-04-14"),
+        tags: ["cases", "business"],
+        category: "cases",
+        content: `
+            <p>Hair & Co has become one of London's most talked-about design studios. Their rapid growth and innovative approach to branding have caught the attention of the entire creative industry.</p>
+            
+            <h2>Building a Reputation</h2>
+            <p>Success in the creative industry isn't just about talent—it's about consistently delivering exceptional work and building strong relationships with clients.</p>
+            
+            <h2>The London Creative Scene</h2>
+            <p>London's creative ecosystem provides unique opportunities and challenges for emerging studios. Hair & Co has navigated this landscape with remarkable skill.</p>
+            
+            <p>Their story offers valuable insights for any creative professional looking to build a successful studio or agency.</p>
+        `
+    },
+    {
         id: 7,
+        title: "Why Food Matters — Disease Prevention & Treatment",
+        excerpt: "Eating more plants and less meat has been found to be a longer life and a reduced risk of cardiovascular disease, cancer, and other chronic diseases.",
+        image: "img/blog.jpeg",
+        author: "Caroline Wu",
+        authorAvatar: "img/avatar.png",
+        date: "13 April 2024",
+        dateSort: new Date("2024-04-13"),
+        tags: ["book-nook", "health"],
+        category: "book-nook",
+        content: `
+            <p>The relationship between food and health has never been more important. Research consistently shows that our dietary choices have profound impacts on our long-term health outcomes.</p>
+            
+            <h2>Plant-Based Benefits</h2>
+            <p>Studies have shown that diets rich in plants and lower in animal products are associated with reduced risks of chronic diseases and increased longevity.</p>
+            
+            <h2>Prevention vs Treatment</h2>
+            <p>While medical treatments are important, prevention through proper nutrition is often more effective and certainly more cost-effective than treating diseases after they develop.</p>
+            
+            <p>Making informed food choices is one of the most powerful tools we have for maintaining our health and preventing disease.</p>
+        `
+    },
+    {
+        id: 8,
         title: "How to Run a Successful Business With Your Partner",
         excerpt: "Starting a business with your spouse or significant other can be challenging. Here are some tips to make it work and maintain a healthy relationship.",
         image: "img/blog.jpeg",
         author: "Phoenix Baker",
         authorAvatar: "img/avatar.png",
-        date: "3 April 2024",
+        date: "12 April 2024",
+        dateSort: new Date("2024-04-12"),
         tags: ["writings", "business"],
         category: "writings",
         content: `
@@ -155,91 +185,49 @@ const blogPosts = [
         `
     },
     {
-        id: 8,
-        title: "Why Food Matters — Disease Prevention & Treatment",
-        excerpt: "Eating more plants and less meat has been found to be a longer life and a reduced risk of cardiovascular disease, cancer, and other chronic diseases.",
-        image: "img/blog.jpeg",
-        author: "Caroline Wu",
-        authorAvatar: "img/avatar.png",
-        date: "1 April 2024",
-        tags: ["book-nook", "health"],
-        category: "book-nook",
-        content: `
-            <p>The relationship between food and health has never been more important. Research consistently shows that our dietary choices have profound impacts on our long-term health outcomes.</p>
-            
-            <h2>Plant-Based Benefits</h2>
-            <p>Studies have shown that diets rich in plants and lower in animal products are associated with reduced risks of chronic diseases and increased longevity.</p>
-            
-            <h2>Prevention vs Treatment</h2>
-            <p>While medical treatments are important, prevention through proper nutrition is often more effective and certainly more cost-effective than treating diseases after they develop.</p>
-            
-            <p>Making informed food choices is one of the most powerful tools we have for maintaining our health and preventing disease.</p>
-        `
-    },
-    {
         id: 9,
-        title: "Why Food Matters — Disease Prevention & Treatment",
-        excerpt: "Eating more plants and less meat has been found to be a longer life and a reduced risk of cardiovascular disease, cancer, and other chronic diseases.",
+        title: "A Continually Unfolding History — Made by Hand",
+        excerpt: "A long-standing occupation that involves the creation of objects, Made by Hand explores the intersection of traditional craftsmanship and modern design.",
         image: "img/blog.jpeg",
-        author: "Caroline Wu",
+        author: "Phoenix Baker",
         authorAvatar: "img/avatar.png",
-        date: "1 April 2024",
-        tags: ["book-nook", "health"],
-        category: "book-nook",
+        date: "3 July 2024",
+        dateSort: new Date("2024-07-03"),
+        tags: ["archives", "craftsmanship"],
+        category: "archives",
         content: `
-            <p>The relationship between food and health has never been more important. Research consistently shows that our dietary choices have profound impacts on our long-term health outcomes.</p>
+            <p>The art of making things by hand has been with humanity since the beginning of time. In our digital age, there's something profoundly satisfying about creating physical objects with our own hands.</p>
             
-            <h2>Plant-Based Benefits</h2>
-            <p>Studies have shown that diets rich in plants and lower in animal products are associated with reduced risks of chronic diseases and increased longevity.</p>
+            <h2>Traditional Craftsmanship Meets Modern Design</h2>
+            <p>Today's artisans are finding innovative ways to blend traditional techniques with contemporary aesthetics, creating pieces that honor the past while speaking to the present.</p>
             
-            <h2>Prevention vs Treatment</h2>
-            <p>While medical treatments are important, prevention through proper nutrition is often more effective and certainly more cost-effective than treating diseases after they develop.</p>
+            <h2>The Value of Handmade</h2>
+            <p>In a world of mass production, handmade objects carry a special significance. They tell stories, preserve traditions, and connect us to the human experience in ways that machine-made products cannot.</p>
             
-            <p>Making informed food choices is one of the most powerful tools we have for maintaining our health and preventing disease.</p>
+            <p>The future of craftsmanship lies not in rejecting technology, but in thoughtfully integrating it with time-honored techniques to create something entirely new.</p>
         `
     },
-    {
+{
         id: 10,
-        title: "Why Food Matters — Disease Prevention & Treatment",
-        excerpt: "Eating more plants and less meat has been found to be a longer life and a reduced risk of cardiovascular disease, cancer, and other chronic diseases.",
+        title: "A Continually Unfolding History — Made by Hand",
+        excerpt: "A long-standing occupation that involves the creation of objects, Made by Hand explores the intersection of traditional craftsmanship and modern design.",
         image: "img/blog.jpeg",
-        author: "Caroline Wu",
+        author: "Phoenix Baker",
         authorAvatar: "img/avatar.png",
-        date: "1 April 2024",
-        tags: ["book-nook", "health"],
-        category: "book-nook",
-        content: `
-            <p>The relationship between food and health has never been more important. Research consistently shows that our dietary choices have profound impacts on our long-term health outcomes.</p>
-            
-            <h2>Plant-Based Benefits</h2>
-            <p>Studies have shown that diets rich in plants and lower in animal products are associated with reduced risks of chronic diseases and increased longevity.</p>
-            
-            <h2>Prevention vs Treatment</h2>
-            <p>While medical treatments are important, prevention through proper nutrition is often more effective and certainly more cost-effective than treating diseases after they develop.</p>
-            
-            <p>Making informed food choices is one of the most powerful tools we have for maintaining our health and preventing disease.</p>
-        `
-    },
-    {
-        id: 11,
-        title: "Conversations with London Hair & Co.",
-        excerpt: "We sat down with London's fast-growing brand and product design studio, Hair & Co, to find out how they've built their reputation.",
-        image: "img/blog.jpeg",
-        author: "Natali Craig",
-        authorAvatar: "img/avatar.png",
-        date: "28 March 2024",
-        tags: ["cases", "business"],
+        date: "3 July 2024",
+        dateSort: new Date("2024-07-03"),
+        tags: ["archives", "craftsmanship"],
         category: "cases",
         content: `
-            <p>Hair & Co has become one of London's most talked-about design studios. Their rapid growth and innovative approach to branding have caught the attention of the entire creative industry.</p>
+            <p>The art of making things by hand has been with humanity since the beginning of time. In our digital age, there's something profoundly satisfying about creating physical objects with our own hands.</p>
             
-            <h2>Building a Reputation</h2>
-            <p>Success in the creative industry isn't just about talent—it's about consistently delivering exceptional work and building strong relationships with clients.</p>
+            <h2>Traditional Craftsmanship Meets Modern Design</h2>
+            <p>Today's artisans are finding innovative ways to blend traditional techniques with contemporary aesthetics, creating pieces that honor the past while speaking to the present.</p>
             
-            <h2>The London Creative Scene</h2>
-            <p>London's creative ecosystem provides unique opportunities and challenges for emerging studios. Hair & Co has navigated this landscape with remarkable skill.</p>
+            <h2>The Value of Handmade</h2>
+            <p>In a world of mass production, handmade objects carry a special significance. They tell stories, preserve traditions, and connect us to the human experience in ways that machine-made products cannot.</p>
             
-            <p>Their story offers valuable insights for any creative professional looking to build a successful studio or agency.</p>
+            <p>The future of craftsmanship lies not in rejecting technology, but in thoughtfully integrating it with time-honored techniques to create something entirely new.</p>
         `
     }
 ];
@@ -282,14 +270,22 @@ function setupEventListeners() {
     });
 }
 
-function loadPosts(category = 'all') {
+function loadPosts(category = 'all', isHomepage = false) {
     const postsGrid = document.getElementById('postsGrid');
     if (!postsGrid) return;
 
-    let filteredPosts = blogPosts;
+    let filteredPosts = [...blogPosts];
+    
+    // Sort posts by date in descending order (newest first)
+    filteredPosts.sort((a, b) => b.dateSort - a.dateSort);
     
     if (category !== 'all') {
-        filteredPosts = blogPosts.filter(post => post.category === category);
+        filteredPosts = filteredPosts.filter(post => post.category === category);
+    }
+
+    // If it's homepage, show only the 6 most recent posts
+    if (isHomepage) {
+        filteredPosts = filteredPosts.slice(0, 6);
     }
 
     postsGrid.innerHTML = filteredPosts.map(post => createPostCard(post)).join('');
