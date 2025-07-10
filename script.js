@@ -2,34 +2,57 @@
 const blogPosts = [
     {
         id: 1,
-        title: "Interview with Photographer & UX Designer, Viola Leitano",
-        excerpt: "From New York, she has worked with Spotify, Nike, Chanel, Vogue and other major brands. We sat down with Viola to discuss her journey.",
-        image: "img/blog.jpeg",
-        author: "Elenka Suthwin",
-        authorAvatar: "img/avatar.png",
-        date: "19 April 2024",
-        dateSort: new Date("2024-04-19"),
-        tags: ["writings", "design"],
+        title: "Judicial Opinions in Gayatri Balasamy v. ISG Novasoft: Can Courts Modify Arbitral Awards?",
+        excerpt: "In Gayatri Balasamy v. ISG Novasoft (2025), the Supreme Court’s Constitution Bench clarified whether courts can modify arbitral awards under Section 34 of the Arbitration Act. The majority affirmed limited powers, while the minority cautioned against judicial overreach. This post presents both sides of the split verdict.",
+        image: "img/post1.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
+        date: "10th July 2024",
+        dateSort: new Date("2024-07-10"),
+        tags: ["Supreme Court", "Arbitration"],
         category: "cases",
         content: `
-            <p>Viola Leitano is a remarkable photographer and UX designer who has made her mark in the creative industry. Based in New York, she has collaborated with some of the world's most prestigious brands including Spotify, Nike, Chanel, and Vogue.</p>
-            
-            <h2>Early Beginnings</h2>
-            <p>Viola's journey into photography began during her college years when she discovered her passion for capturing moments that tell stories. Her unique perspective and technical skills quickly caught the attention of industry professionals.</p>
-            
-            <h2>Transition to UX Design</h2>
-            <p>What sets Viola apart is her ability to seamlessly blend her photography background with UX design principles. This unique combination allows her to create visually stunning and user-friendly digital experiences.</p>
-            
-            <p>Her work continues to inspire a new generation of creative professionals who are looking to break traditional boundaries and explore interdisciplinary approaches to design.</p>
-        `
+            <h1>Judicial Opinions in <em>Gayatri Balasamy v. ISG Novasoft</em></h1>
+            <p><strong>Topic:</strong> Can Courts Modify Arbitral Awards?</p>
+
+            <p>In a landmark decision delivered in 2025, the Supreme Court of India addressed a long-standing question in arbitration law—whether courts under Section 34 of the Arbitration and Conciliation Act, 1996, have the power to modify arbitral awards. The judgment resulted in a split opinion. While the majority view supported limited modification powers under specific circumstances, the minority opposed it, emphasizing party autonomy and the sanctity of arbitral proceedings.</p>
+
+            <h2>Majority View</h2>
+
+            <p>The court has a limited power under Sections 34 and 37 to modify an arbitral award. This limited power may be exercised under the following circumstances:</p>
+            <ul>
+                <li>When the award is severable, by separating the “invalid” portion from the “valid” portion.</li>
+                <li>By correcting clerical, computational, or typographical errors which are apparent on the face of the record.</li>
+                <li>Post-award interest may be modified in some circumstances.</li>
+                <li>Article 142 of the Constitution applies but must be used with great caution and should not result in rewriting or modifying the award on merits.</li>
+                <li>The power can be exercised to bring finality to litigation, not to reopen merit-based issues.</li>
+                <li>Setting aside an award includes the power to do so in part, where the invalid and valid parts can be clearly separated.</li>
+                <li>Section 34 implies limited power to modify, even though the 1996 Act does not expressly state it.</li>
+                <li>The court can correct evident errors without conducting a merit-based review.</li>
+                <li>If there is any doubt about the appropriateness of the modification, the court should refrain and redirect to Section 33 or 34(4).</li>
+                <li>The court may intervene to modify post-award interest if justified by circumstances arising after the award.</li>
+            </ul>
+
+            <h2>Minority View</h2>
+
+            <p>The minority held that courts exercising powers under Section 34 or appeals thereunder do <strong>not</strong> have the power to modify an award:</p>
+            <ul>
+                <li>Arbitration is a consensual process. Courts cannot enter a merits review under Section 34 unless expressly permitted by law.</li>
+                <li>The power to modify is not subsumed in the power to set aside—both are qualitatively different.</li>
+                <li>Severance (partial setting aside) is permissible, but not modification.</li>
+                <li>Modification entails adjudicating on merits, which is outside the scope of Section 34.</li>
+                <li>The court cannot modify even the interest component—if needed, the matter should be remitted under Section 34(4).</li>
+                <li>Article 142 powers should not override the statutory scheme of the Arbitration Act.</li>
+                <li>Granting such modification powers creates uncertainty for contracting parties and undermines arbitration as an effective resolution mechanism.</li>
+            </ul>`
     },
     {
         id: 2,
         title: "Improve Your Design Skills: Develop an 'Eye' for Design",
         excerpt: "Design is timeless. Learn how to quickly develop an 'eye' for design and improve your design skills in this comprehensive guide.",
         image: "img/blog.jpeg",
-        author: "Caroline Wu",
-        authorAvatar: "img/avatar.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
         date: "18 April 2024",
         dateSort: new Date("2024-04-18"),
         tags: ["writings", "design"],
@@ -51,8 +74,8 @@ const blogPosts = [
         title: "A Relentless Pursuit of Perfection: Thoughts on Design",
         excerpt: "Between self-doubt, creative products and poorly made apps, what is your greater distinction between the good and the great?",
         image: "img/blog.jpeg",
-        author: "Lana Steiner",
-        authorAvatar: "img/avatar.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
         date: "17 April 2024",
         dateSort: new Date("2024-04-17"),
         tags: ["writings", "philosophy"],
@@ -74,8 +97,8 @@ const blogPosts = [
         title: "How Remote Collaboration Makes Us Better Designers",
         excerpt: "Collaboration can make us better designers, and our design better. Here are some insights on how to navigate the new challenges of remote collaboration.",
         image: "img/blog.jpeg",
-        author: "Natali Craig",
-        authorAvatar: "img/avatar.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
         date: "16 April 2024",
         dateSort: new Date("2024-04-16"),
         tags: ["writings", "collaboration"],
@@ -97,8 +120,8 @@ const blogPosts = [
         title: "Best Books on Scaling Your Early-stage Startup",
         excerpt: "This comprehensive guide covers the best books for scaling your early-stage startup, from foundational business advice to take your business to the next level.",
         image: "img/blog.jpeg",
-        author: "Natali Craig",
-        authorAvatar: "img/avatar.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
         date: "15 April 2024",
         dateSort: new Date("2024-04-15"),
         tags: ["book-nook", "business"],
@@ -120,8 +143,8 @@ const blogPosts = [
         title: "Conversations with London Hair & Co.",
         excerpt: "We sat down with London's fast-growing brand and product design studio, Hair & Co, to find out how they've built their reputation.",
         image: "img/blog.jpeg",
-        author: "Natali Craig",
-        authorAvatar: "img/avatar.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
         date: "14 April 2024",
         dateSort: new Date("2024-04-14"),
         tags: ["cases", "business"],
@@ -143,8 +166,8 @@ const blogPosts = [
         title: "Why Food Matters — Disease Prevention & Treatment",
         excerpt: "Eating more plants and less meat has been found to be a longer life and a reduced risk of cardiovascular disease, cancer, and other chronic diseases.",
         image: "img/blog.jpeg",
-        author: "Caroline Wu",
-        authorAvatar: "img/avatar.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
         date: "13 April 2024",
         dateSort: new Date("2024-04-13"),
         tags: ["book-nook", "health"],
@@ -166,8 +189,8 @@ const blogPosts = [
         title: "How to Run a Successful Business With Your Partner",
         excerpt: "Starting a business with your spouse or significant other can be challenging. Here are some tips to make it work and maintain a healthy relationship.",
         image: "img/blog.jpeg",
-        author: "Phoenix Baker",
-        authorAvatar: "img/avatar.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
         date: "12 April 2024",
         dateSort: new Date("2024-04-12"),
         tags: ["writings", "business"],
@@ -189,8 +212,8 @@ const blogPosts = [
         title: "A Continually Unfolding History — Made by Hand",
         excerpt: "A long-standing occupation that involves the creation of objects, Made by Hand explores the intersection of traditional craftsmanship and modern design.",
         image: "img/blog.jpeg",
-        author: "Phoenix Baker",
-        authorAvatar: "img/avatar.png",
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
         date: "3 July 2024",
         dateSort: new Date("2024-07-03"),
         tags: ["archives", "craftsmanship"],
@@ -207,36 +230,37 @@ const blogPosts = [
             <p>The future of craftsmanship lies not in rejecting technology, but in thoughtfully integrating it with time-honored techniques to create something entirely new.</p>
         `
     },
-{
+    {
         id: 10,
-        title: "A Continually Unfolding History — Made by Hand",
-        excerpt: "A long-standing occupation that involves the creation of objects, Made by Hand explores the intersection of traditional craftsmanship and modern design.",
+        title: "Interview with Photographer & UX Designer, Viola Leitano",
+        excerpt: "From New York, she has worked with Spotify, Nike, Chanel, Vogue and other major brands. We sat down with Viola to discuss her journey.",
         image: "img/blog.jpeg",
-        author: "Phoenix Baker",
-        authorAvatar: "img/avatar.png",
-        date: "12 July 2024",
-        dateSort: new Date("2024-07-12"),
-        tags: ["archives", "craftsmanship"],
+        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+        authorAvatar: "img/avatar.jpg",
+        date: "19 April 2024",
+        dateSort: new Date("2024-04-19"),
+        tags: ["writings", "design"],
         category: "cases",
         content: `
-            <p>The art of making things by hand has been with humanity since the beginning of time. In our digital age, there's something profoundly satisfying about creating physical objects with our own hands.</p>
+            <p>Viola Leitano is a remarkable photographer and UX designer who has made her mark in the creative industry. Based in New York, she has collaborated with some of the world's most prestigious brands including Spotify, Nike, Chanel, and Vogue.</p>
             
-            <h2>Traditional Craftsmanship Meets Modern Design</h2>
-            <p>Today's artisans are finding innovative ways to blend traditional techniques with contemporary aesthetics, creating pieces that honor the past while speaking to the present.</p>
+            <h2>Early Beginnings</h2>
+            <p>Viola's journey into photography began during her college years when she discovered her passion for capturing moments that tell stories. Her unique perspective and technical skills quickly caught the attention of industry professionals.</p>
             
-            <h2>The Value of Handmade</h2>
-            <p>In a world of mass production, handmade objects carry a special significance. They tell stories, preserve traditions, and connect us to the human experience in ways that machine-made products cannot.</p>
+            <h2>Transition to UX Design</h2>
+            <p>What sets Viola apart is her ability to seamlessly blend her photography background with UX design principles. This unique combination allows her to create visually stunning and user-friendly digital experiences.</p>
             
-            <p>The future of craftsmanship lies not in rejecting technology, but in thoughtfully integrating it with time-honored techniques to create something entirely new.</p>
+            <p>Her work continues to inspire a new generation of creative professionals who are looking to break traditional boundaries and explore interdisciplinary approaches to design.</p>
         `
     }
+
 ];
 
 // Comments storage (in real app, this would be in a database)
 let comments = {};
 
 // Initialize the application
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     initializeApp();
 });
 
@@ -260,7 +284,7 @@ function setupEventListeners() {
     }
 
     // Share and copy buttons
-    document.addEventListener('click', function(e) {
+    document.addEventListener('click', function (e) {
         if (e.target.classList.contains('share-btn')) {
             handleShare();
         }
@@ -275,10 +299,10 @@ function loadPosts(category = 'all', isHomepage = false) {
     if (!postsGrid) return;
 
     let filteredPosts = [...blogPosts];
-    
+
     // Sort posts by date in descending order (newest first)
     filteredPosts.sort((a, b) => b.dateSort - a.dateSort);
-    
+
     if (category !== 'all') {
         filteredPosts = filteredPosts.filter(post => post.category === category);
     }
@@ -301,7 +325,9 @@ function createPostCard(post) {
                 <div class="post-meta">
                     <div class="post-author">
                         <img src="${post.authorAvatar}" alt="${post.author}">
-                        <span>${post.author}</span>
+                        <span>
+                            ${post.author.replace(" - ", "<br><small>").concat("</small>")}
+                        </span>
                     </div>
                     <span class="post-date">${post.date}</span>
                 </div>
@@ -312,6 +338,7 @@ function createPostCard(post) {
         </article>
     `;
 }
+
 
 function navigateToPost(postId) {
     window.location.href = `blog-post.html?id=${postId}`;
@@ -345,17 +372,17 @@ function handleCopyUrl() {
 
 function handleCommentSubmission(e) {
     e.preventDefault();
-    
+
     const formData = new FormData(e.target);
     const comment = {
         id: Date.now(),
         name: formData.get('name'),
         email: formData.get('email'),
         content: formData.get('comment'),
-        date: new Date().toLocaleDateString('en-US', { 
-            year: 'numeric', 
-            month: 'long', 
-            day: 'numeric' 
+        date: new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
         })
     };
 
@@ -363,7 +390,7 @@ function handleCommentSubmission(e) {
     if (!comments[postId]) {
         comments[postId] = [];
     }
-    
+
     comments[postId].push(comment);
     saveComments();
     displayComments(postId);
@@ -387,7 +414,7 @@ function displayComments(postId) {
     if (!commentsList) return;
 
     const postComments = comments[postId] || [];
-    
+
     if (postComments.length === 0) {
         commentsList.innerHTML = '<p class="no-comments">No comments yet. Be the first to comment!</p>';
         return;
@@ -414,7 +441,7 @@ function showToast(message, type = 'success') {
     toast.className = `toast ${type}`;
     toast.textContent = message;
     document.body.appendChild(toast);
-    
+
     setTimeout(() => toast.classList.add('show'), 100);
     setTimeout(() => {
         toast.classList.remove('show');
