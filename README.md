@@ -67,5 +67,3 @@ To manually add a new blog post:
 * To make sure the category is working fine, enter the category field correctly. There are a total of 4 categories "cases" "writings" "book-nook" "archives"
 
 ---
-
-Let me know if you'd like a version with dynamic form-based blog submissions or integration with Firebase or a JSON backend.
