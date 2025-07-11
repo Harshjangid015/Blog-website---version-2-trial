@@ -7,12 +7,12 @@ const blogPosts = [
         image: "img/post1.png",
         author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
         authorAvatar: "img/avatar.jpg",
-        date: "10th July 2024",
-        dateSort: new Date("2024-07-10"),
+        date: "10th July 2025",
+        dateSort: new Date("2025-07-10"),
         tags: ["Supreme Court", "Arbitration"],
         category: "cases",
         content: `
-            <h1>Judicial Opinions in <em>Gayatri Balasamy v. ISG Novasoft</em></h1>
+            <h1>Judicial Opinions in <em>Gayatri Balasamy v. ISG Novasoft<sup>1</sup></em></h1>
             <p><strong>Topic:</strong> Can Courts Modify Arbitral Awards?</p>
 
             <p>In a landmark decision delivered in 2025, the Supreme Court of India addressed a long-standing question in arbitration law—whether courts under Section 34 of the Arbitration and Conciliation Act, 1996, have the power to modify arbitral awards. The judgment resulted in a split opinion. While the majority view supported limited modification powers under specific circumstances, the minority opposed it, emphasizing party autonomy and the sanctity of arbitral proceedings.</p>
@@ -44,7 +44,11 @@ const blogPosts = [
                 <li>The court cannot modify even the interest component—if needed, the matter should be remitted under Section 34(4).</li>
                 <li>Article 142 powers should not override the statutory scheme of the Arbitration Act.</li>
                 <li>Granting such modification powers creates uncertainty for contracting parties and undermines arbitration as an effective resolution mechanism.</li>
-            </ul>`
+            </ul>
+            <br>
+            <hr>
+             <p><em><sup>1</sup>Gayatri Balasamy v. ISG Novasoft, Supreme Court of India, 2025</em></p>
+            `
     },
     {
         id: 2,
