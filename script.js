@@ -47,7 +47,7 @@ const blogPosts = [
             </ul>
             <br>
             <hr>
-             <p><em><sup>1</sup>Gayatri Balasamy v. ISG Novasoft, Supreme Court of India, 2025</em></p>
+             <p><em><sup>1</sup>Gayatri Balasamy v. M/S ISG Novasoft Technologies Limited, 2025 SCC OnLine SC 986</em></p>
             `
     },
     {
