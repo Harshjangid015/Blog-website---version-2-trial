@@ -57,8 +57,8 @@ const blogPosts = [
         image: "img/post2.jpeg",
         author: "Niharika Verma - 3rd year BSc LLB student, Gujarat National Law University",
         authorAvatar: "img/avatar.jpg",
-        date: "20 July, 2025",
-        dateSort: new Date("2025-07-20"),
+        date: "17 October, 2024",
+        dateSort: new Date("2024-10-17"),
         tags: ["Misleading Ads", "Pharmaceuticals"],
         category: "writings",
         content: `
@@ -76,7 +76,7 @@ const blogPosts = [
 
 <h2>1. INTRODUCTION</h2>
 
-<p>Advertisements play a pivotal role in setting a brand in spotlight and capture consumer attention. Taglines like, “Red Bull gives you wings” and Surf Excel’s “Daag acche hain” have left a lasting impression on all of us. Accordingly, the proliferation of advertisements in the pharmaceutical industry has significantly shaped public perceptions and consumer behaviour in the healthcare sector. These advertisements generally aim at educating people about various treatment options and promote health products.</p>
+<p>Advertisements play a pivotal role in setting a brand in spotlight and capture consumer attention. Taglines like, <em>“Red Bull gives you wings” </em>and Surf Excel’s <em> “Daag acche hain” </em>have left a lasting impression on all of us. Accordingly, the proliferation of advertisements in the pharmaceutical industry has significantly shaped public perceptions and consumer behaviour in the healthcare sector. These advertisements generally aim at educating people about various treatment options and promote health products.</p>
 
 <p>Healthcare is one of the most popular and best-selling product categories in India. Healthcare is a high-demand product sector, hence popular healthcare marketing campaigns in India are released throughout the year. In the Indian market, various well-known Indian and International healthcare brands compete for market shares. As a result, healthcare advertising in India is essential for capturing the audience’s attention. Television, digital-media, newspaper, radio, cinema, magazines, and other prominent channels are frequently used to display the most recent healthcare advertisements. Most of these advertisers seek to highlight product characteristics and advantages over competitors while also attempting to develop an emotional connection with the consumer. However, the line between truthful representation and misleading claims is often blurred by these advertisements.</p>
 
