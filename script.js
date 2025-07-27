@@ -175,15 +175,16 @@ const blogPosts = [
 
 <p>As pharmaceutical advertisements continue to influence both healthcare professionals and consumers, it becomes increasingly critical to strike a balance between the right to commercial speech and the protection of public health. Misleading ads that promote drugs with partial or exaggerated information compromise this balance.</p>
 
-<p>To address these challenges, a multi-faceted approach is necessary.</p>
+<p>To address these challenges, a multi-faceted approach is necessary. First, there is a need for stronger enforcement of existing regulations, with more significant penalties for companies that engage in misleading advertising practices. The regulatory bodies should be empowered with resources and authority to monitor and act swiftly against violations.</p>
 
-<ul>
-  <li><strong>First</strong>, there is a need for stronger enforcement of existing regulations, with more significant penalties for companies that engage in misleading advertising practices. The regulatory bodies should be empowered with resources and authority to monitor and act swiftly against violations.</li>
-  <li><strong>Second</strong>, there should be increased transparency in drug advertising. Pharmaceutical companies should be required to disclose all relevant information about their products, including potential side effects and limitations, in a clear and accessible manner. This would enable consumers to make more informed decisions about their health.</li>
-  <li><strong>Third</strong>, education plays a crucial role. Both healthcare professionals and the general public should be educated about how to critically evaluate drug advertisements and recognize potentially misleading claims. This could be incorporated into medical curricula and public health campaigns.</li>
-  <li><strong>Fourth</strong>, the self-regulatory mechanisms within the pharmaceutical industry need to be strengthened. Industry associations should take a more proactive role in setting and enforcing ethical standards for drug advertising.</li>
-  <li><strong>Lastly</strong>, there is a need for ongoing research and dialogue on the impact of drug advertisements on public health. This would help in developing policies and guidelines for pharmaceutical marketing.</li>
-</ul>
+<p>Second, there should be increased transparency in drug advertising. Pharmaceutical companies should be required to disclose all relevant information about their products, including potential side effects and limitations, in a clear and accessible manner. This would enable consumers to make more informed decisions about their health.</p>
+
+<p>Third, education plays a crucial role. Both healthcare professionals and the general public should be educated about how to critically evaluate drug advertisements and recognize potentially misleading claims. This could be incorporated into medical curricula and public health campaigns.</p>
+
+<p>Fourth, the self-regulatory mechanisms within the pharmaceutical industry need to be strengthened. Industry associations should take a more proactive role in setting and enforcing ethical standards for drug advertising.</p>
+
+<p>Lastly, there is a need for ongoing research and dialogue on the impact of drug advertisements on public health. This would help in developing policies and guidelines for pharmaceutical marketing.</p>
+
 
 <h2> References </h2>
 <hr>
