@@ -301,53 +301,37 @@ and the right to an effective remedy under Article 13<sup>4</sup>.”</em></p>
 <p><em><sup>5</sup>Conference of the Parties, Adoption of the Paris Agreement, Dec. 12, 2015, U.N. Doc. FCCC/CP/2015/L.9/Rev/1 (Dec. 12, 2015) </em></p>
 
         `
-    },
-    {
-        id: 5,
-        title: "Best Books on Scaling Your Early-stage Startup",
-        excerpt: "This comprehensive guide covers the best books for scaling your early-stage startup, from foundational business advice to take your business to the next level.",
-        image: "img/blog.jpeg",
-        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
-        authorAvatar: "img/avatar.jpg",
-        date: "15 April 2024",
-        dateSort: new Date("2024-04-15"),
-        tags: ["book-nook", "business"],
-        category: "book-nook",
-        content: `
-            <p>Scaling a startup is one of the most challenging phases of building a business. These carefully selected books provide invaluable insights from entrepreneurs who have successfully navigated this journey.</p>
+    }//,
+    // {
+    //     id: 5,
+    //     title: "Best Books on Scaling Your Early-stage Startup",
+    //     excerpt: "This comprehensive guide covers the best books for scaling your early-stage startup, from foundational business advice to take your business to the next level.",
+    //     image: "img/blog.jpeg",
+    //     author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+    //     authorAvatar: "img/avatar.jpg",
+    //     date: "15 April 2024",
+    //     dateSort: new Date("2024-04-15"),
+    //     tags: ["book-nook", "business"],
+    //     category: "book-nook",
+    //     content: `
             
-            <h2>Essential Reading List</h2>
-            <p>From "The Lean Startup" to "Blitzscaling," these books offer practical frameworks and strategies for sustainable growth.</p>
+    //     `
+    // },
+    // {
+    //     id: 9,
+    //     title: "A Continually Unfolding History — Made by Hand",
+    //     excerpt: "A long-standing occupation that involves the creation of objects, Made by Hand explores the intersection of traditional craftsmanship and modern design.",
+    //     image: "img/blog.jpeg",
+    //     author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+    //     authorAvatar: "img/avatar.jpg",
+    //     date: "3 July 2024",
+    //     dateSort: new Date("2024-07-03"),
+    //     tags: ["archives", "craftsmanship"],
+    //     category: "archives",
+    //     content: `
             
-            <h2>Learning from Failures</h2>
-            <p>Some of the most valuable lessons come from understanding what doesn't work. These books don't shy away from discussing the failures and setbacks that are part of the entrepreneurial journey.</p>
-            
-            <p>Remember, every startup's journey is unique. Use these books as guides, but don't be afraid to forge your own path when the situation calls for it.</p>
-        `
-    },
-    {
-        id: 9,
-        title: "A Continually Unfolding History — Made by Hand",
-        excerpt: "A long-standing occupation that involves the creation of objects, Made by Hand explores the intersection of traditional craftsmanship and modern design.",
-        image: "img/blog.jpeg",
-        author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
-        authorAvatar: "img/avatar.jpg",
-        date: "3 July 2024",
-        dateSort: new Date("2024-07-03"),
-        tags: ["archives", "craftsmanship"],
-        category: "archives",
-        content: `
-            <p>The art of making things by hand has been with humanity since the beginning of time. In our digital age, there's something profoundly satisfying about creating physical objects with our own hands.</p>
-            
-            <h2>Traditional Craftsmanship Meets Modern Design</h2>
-            <p>Today's artisans are finding innovative ways to blend traditional techniques with contemporary aesthetics, creating pieces that honor the past while speaking to the present.</p>
-            
-            <h2>The Value of Handmade</h2>
-            <p>In a world of mass production, handmade objects carry a special significance. They tell stories, preserve traditions, and connect us to the human experience in ways that machine-made products cannot.</p>
-            
-            <p>The future of craftsmanship lies not in rejecting technology, but in thoughtfully integrating it with time-honored techniques to create something entirely new.</p>
-        `
-    }
+    //     `
+    // }
 
 ];
 
