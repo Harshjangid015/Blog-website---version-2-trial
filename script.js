@@ -6,7 +6,7 @@ const blogPosts = [
         excerpt: "In Gayatri Balasamy v. ISG Novasoft (2025), the Supreme Court’s Constitution Bench clarified whether courts can modify arbitral awards under Section 34 of the Arbitration Act. The majority affirmed limited powers, while the minority cautioned against judicial overreach. This post presents both sides of the split verdict.",
         image: "img/post1.png",
         author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
-        authorAvatar: "img/avatar.jpg",
+        authorAvatar: "img/avatar.jpeg",
         date: "10th July 2025",
         dateSort: new Date("2025-07-10"),
         tags: ["Supreme Court", "Arbitration"],
@@ -56,7 +56,7 @@ const blogPosts = [
         excerpt: "This article examines the issue of misleading pharmaceutical advertisements in India, highlighting how exaggerated claims and selective data presentation can mislead consumers and endanger public health. It also explores the existing regulatory framework and the need for stricter enforcement and ethical advertising practices",
         image: "img/post2.jpeg",
         author: "Niharika Verma - 3rd year BSc LLB student, Gujarat National Law University",
-        authorAvatar: "img/avatar.jpg",
+        authorAvatar: "img/avatar.jpeg",
         date: "17 October, 2024",
         dateSort: new Date("2024-10-17"),
         tags: ["Misleading Ads", "Pharmaceuticals"],
@@ -236,7 +236,7 @@ const blogPosts = [
         excerpt: "This case analysis explores the landmark 2024 decision of the European Court of Human Rights where the Court recognized the link between inadequate climate action and human rights violations. The judgment marked a pivotal moment by affirming state obligations to protect vulnerable groups from the adverse effects of climate change within a human rights framework.",
         image: "img/post3dummy.png",
         author: "Niharika Verma - 3rd year BSc LLB student, Gujarat National Law University",
-        authorAvatar: "img/avatar.jpg",
+        authorAvatar: "img/avatar.jpeg",
         date: "26 February, 2025",
         dateSort: new Date("2025-02-26"),
         tags: ["European Court of Human Rights", "Climate Change"],
@@ -301,23 +301,78 @@ and the right to an effective remedy under Article 13<sup>4</sup>.”</em></p>
 <p><em><sup>5</sup>Conference of the Parties, Adoption of the Paris Agreement, Dec. 12, 2015, U.N. Doc. FCCC/CP/2015/L.9/Rev/1 (Dec. 12, 2015) </em></p>
 
         `
-    }//,
-    // {
-    //     id: 5,
-    //     title: "Best Books on Scaling Your Early-stage Startup",
-    //     excerpt: "This comprehensive guide covers the best books for scaling your early-stage startup, from foundational business advice to take your business to the next level.",
-    //     image: "img/blog.jpeg",
-    //     author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
-    //     authorAvatar: "img/avatar.jpg",
-    //     date: "15 April 2024",
-    //     dateSort: new Date("2024-04-15"),
-    //     tags: ["book-nook", "business"],
-    //     category: "book-nook",
-    //     content: `
+    },
+    {
+         id: 5,
+         title: "SECTION 7 IBC: A DEFENCE COMPENDIUM",
+         excerpt: "Section 7 of the Insolvency and Bankruptcy Code remains one of the most frequently invoked provisions by financial creditors, with NCLTs admitting applications almost mechanically upon the existence of debt and default. However, there is limited consolidated guidance available on the grounds that can be effectively raised to challenge such admission orders. This article addresses that gap by providing a structured compendium of legally sustainable grounds, supported by recent judicial precedents. This piece offers practical utility to insolvency practitioners, corporate counsel, and litigators navigating appeals under Section 61 of the Code.",
+         image: "img/blog.jpeg",
+         author: "Niharika Verma - 4th year BSc LLB student, Gujarat National Law University",
+         authorAvatar: "img/avatar.jpeg",
+         date: "15 October 2025",
+         dateSort: new Date("2025-10-15"),
+         tags: ["book-nook", "business"],
+         category: "cases",
+         content: `
+         <h1>Section 7 IBC: A Defence Compendium</h1>
+
+  <p>Insolvency and Bankruptcy Code (IBC) can be triggered when there is a default which must total at least 1 crore rupees. For an application to initiate Corporate Insolvency Resolution Process (CIRP), Form 1 accompanied with certain documents have to be filed with the NCLT. Section 7 IBC outlines the process for a Financial Creditor to initiate CIRP against a Corporate Debtor when a default has occurred. The section allows a Financial Creditor to apply to the Adjudicating Authority i.e., NCLT to begin the CIRP, either individually or along with other Financial Creditors.</p>
+
+  <p>The Adjudicating Authority can either admit or reject the application. As per most of the precedents of the Supreme Court it is clearly enumerated that upon the existence of a debt and a default thereof the application must be admitted. Hence, NCLTs are left with only a little discretion. The only exceptions that are there in the statute are i) the application is incomplete; or ii) there is disciplinary proceeding pending against the proposed Resolution Professional. In absence of these exceptions the application needs to be admitted, no questions asked.</p>
+
+  <p>There can be a scenario whereby a party wants to get the CIRP delayed, stayed or cancelled. There are various course of actions that could be taken such as filing an appeal against the order before the NCLAT u/s 61 of the Code or just simply filing a miscellaneous application before the NCLT for stay of the order. This article deals with potential grounds for challenging the admission of such applications. The list is illustrative, not exhaustive, and other grounds may apply based on specific facts. However, it must be noted that raising these grounds does not guarantee that the admission order will be set aside, as appeals may be rejected based on the merits of each case.</p>
+
+  <h2>Barred by Limitation</h2>
+  <p>This is the most common ground to challenge the order admitting section 7 application. It can be argued that the application should not have been entertained by the Adjudicating Authority as it was barred by limitation. There is no specific period provided in the Limitation Act 1963 to file an application under IBC before NCLT. An application for which no limitation period is prescribed in the Schedule, is governed by Article 137 of the Schedule. The period of limitation prescribed for such applications is three years from the date of accrual of the right to sue, i.e. the date of default. However, the delay can be condoned if sufficient reasoning is provided justifying the delay.</p>
+
+  <p>In the matter of <em>Virigineni Anjaiah vs Pridhvi Asset Reconstruction and Securitization Company Ltd & Anr</em> before NCLAT, Chennai, it was contended that the loan taken by the Corporate Debtor from original Financial Creditor was stamped as NPA on 31.10.2015 and the limitation period of 3 years expired on 31.10.2018. The counter-argument was that the appeal has been filed with an intention to frustrate the objection of IBC and to delay the CIRP; and that the entire appeal was pinned on certain judgments of NCLAT regarding limitation. NCLAT concluded that the suit was not barred by limitation.</p>
+
+  <p>In <em>M/s. Gradient Nirman Private Limited & Anr vs M/s. IFCI Ltd & Ors</em> an appeal was filed before the NCLAT, New Delhi on the ground that the application u/s 7 was barred by limitation, and that there was no acknowledgement of debt to take advantage of section 18, Limitation Act. The corporate debtor contended that since the creditor took steps to initiate proceedings under DRT, the creditor is entitled for the exclusion of the said time period u/s 14 of Limitation Act. NCLAT allowed the appeal setting aside the admission order.</p>
+
+  <h2>Rights of Third Party Getting Affected</h2>
+  <p>While the existence of a debt and default might seem to establish a clear path for a section 7 application, a significant challenge can arise when its admission would adversely affect the rights and interests of third parties, such as homebuyers. This argument can be availed by every corporate debtor since there will always be unsecured creditors that will be impacted by the initiation of CIRP.</p>
+
+  <p>In <em>Gagan Tandon & Ors v. IL & FS Financial Services Ltd. & Ors.</em>, it was argued that the admission order would adversely affect ongoing projects and impact the rights of third parties such as other homebuyers and allottees. NCLAT considered this argument while upholding the principle that the interests of all unsecured creditors, especially homebuyers waiting for project completion, are relevant but do not inherently bar admission if statutory requirements u/s 7 are met.</p>
+
+  <h2>Financial Stability</h2>
+  <p>It can be contended that the Corporate Debtor is financially healthy.</p>
+
+  <p>In <em>Vidarbha Industries</em> case, a Miscellaneous Application for stay was filed stating that Vidarbha Industries was financially healthy and due to unwanted financial stress because of pending appeals, debts could not be paid off. The Application was dismissed by the NCLT stating that section 7 was mandatory in its wording. Thereafter, NCLAT said that this issue of liquidity that was raised cannot impact the admissibility of section 7 application. The case later went to Supreme Court.</p>
+
+  <p>However, in <em>M. Suresh Kumar Reddy v. Canara Bank & Ors</em> the SC established that the ruling in the Vidarbha case will only be applicable to the facts and circumstances of the case and will not set a precedent against the settled position.</p>
+
+  <p>In the matter of <em>HDFC Bank Ltd v. John Energy Ltd</em>, it was argued that the Applicant is the only one out of the whole consortium that wanted to initiate CIRP against the Corporate Debtor and the other lenders are ready to cooperate to pull it out of the debt trap. The Adjudicating Authority rejected the application u/s 7, noting that the Corporate Debtor had contracts worth Rs.711.18 Crores against a total debt of Rs.86.21 Crores payable to HDFC Bank, and since other lenders were ready to restructure the loan, it was not proper to admit the CIRP at that stage.</p>
+
+  <h2>There is a Debt, but it has not Become Due and Payable</h2>
+  <p>Section 3(12) IBC defines default as non-payment of debt when it has become “due and payable” and is “not paid” by the debtor. In situations where there exists a debt, but it has not become due and payable, the cause of action does not even arise.</p>
+
+  <p>In <em>Pooja Ramesh Singh v. State Bank of India</em>, the NCLAT held that in case of an on-demand guarantee, the debt does not become due and payable against the guarantor merely because the principal borrower has defaulted. The liability of the guarantor crystallises only when a formal demand notice is issued as per terms of the guarantee deed. The admission order was set aside holding that the debt had not become due and payable against the corporate guarantor, making the application premature.</p>
+
+  <h2>Not a Financial Creditor</h2>
+  <p>Since according to Section 7 a “financial creditor” may file an application, dispute over the nature of transaction can be raised. If it is established that the Applicant is indeed not a financial creditor but is an operational creditor, the right course to take here would be an application u/s 9. However, proving that the debt is not a 'financial debt' may suffice without establishing operational creditor status.</p>
+
+  <p>The Adjudicating Authority in <em>M/s Murlidhar Vincom Pvt Ltd v. M/s Skoda (India) Pvt Ltd</em> had dismissed the section 7 application, holding that share application money in respect of the shares not allotted cannot be deemed to be a financial debt. An appeal was then filed before NCLAT. The question was “whether share application money can be treated as financial debt, where such money had not been refunded within the period prescribed u/s 42 of the Companies Act r/w Companies (Acceptance of Deposit) Rules, 2014”. It was observed that the said share application money was not advanced in accordance with the private placement mechanism as specified under the Companies Act. The appeal was dismissed.</p>
+
+  <h2>Resolution is Not the Purpose of the Application</h2>
+  <p>The very objective of IBC is to expedite the process to resolve insolvency. Hence, section 7 application in its very essence if for initiating an insolvency resolution process. Where the object behind filing the application is something else but resolution, it defeats the very purpose.</p>
+
+  <p>In <em>Anita Jindal v. M/s Jindal Buildtech Pvt Ltd</em> it was argued that the objective of IBC is to bring about ‘Resolution’ of an Insolvent Debtor and is definitely not a ‘Recovery Proceeding’. The Tribunal held that in the present case, seeking to initiate CIRP is only with an intention for ‘Recovery’ of dues and opposes the very spirit of the Code. The NCLAT held that ‘a Recovery Proceeding’ of this nature does fall within the scope and ambit of the words ‘for any purpose other than Resolution’, u/s 65(1) IBC.</p>
+
+  <p>NCLAT, New Delhi in <em>Binani Industries Ltd v Bank of Baroda & Anr</em> has differentiated between 'Recovery' and 'Resolution' observing that IBC is not a Recovery Proceeding. 'Recovery' dispossesses the 'Corporate Debtor' of its assets while a Resolution is an effort to keep it afloat.</p>
+
+  <h2>Other Grounds</h2>
+  <p>In <em>Ashok Kumar Tyagi v UCO Bank</em> there was an admission of debt and default by the corporate debtor. However, after the pronouncement of the section 7 admission order, the corporate debtor issued a one-time settlement (OTS) proposal to the financial creditor, which was then sought to be increased by the latter through a counterproposal; the order records that the corporate debtor had accepted the financial creditor’s counterproposal, but no further response was received from the financial creditor.</p>
+
+  <p>In this case, both the Vidarbha case and the Suresh Kumar case were cited before the NCLAT. Section 7 admission order was stayed by it for 60 days in order to give the financial creditor an opportunity to take a final decision on the corporate debtor’s acceptance of the counterproposal. In any event, if there was no settlement reached between the parties, the CIRP of the corporate debtor would commence and the stay granted by the NCLAT would become inoperative.</p>
+
+  <p>Proper service of notice is a fundamental requirement before admitting a Section 7 application. In <em>M/s AKJ Fincap Ltd v Bank of India</em> it was observed that the Notice sent to the Appellant had returned with an endorsement ‘insufficient address’. The Appellant became aware of the pendency of the application only when the counsel came across it on the website. The Appellant was proceeded ex-parte solely on the basis of the submissions of the Respondent that the Notice has been served upon them. The ex-parte order was set aside by the NCLAT.</p>
+
+  <p>The scope to challenge a Section 7 admission order remains limited and success depends entirely on the specific facts and legal merits of each case.</p>
+
             
-    //     `
-    // },
-    // {
+         `
+     }
+    // ,{
     //     id: 9,
     //     title: "A Continually Unfolding History — Made by Hand",
     //     excerpt: "A long-standing occupation that involves the creation of objects, Made by Hand explores the intersection of traditional craftsmanship and modern design.",
